@@ -114,6 +114,8 @@ allowDiskUse 옵션을 사용하면 disk 까지 사용하여 도큐먼트 크기
 * 집계 프레임워크보다 느리다.
 * 직관적이지 않다.
 
+집계 프레임워크가 생기면서 사용하지 않는 것이 좋을 것 같아보인다. [MongoDB showdown: Aggregate vs map-reduce.](https://sysdig.com/blog/mongodb-showdown-aggregate-vs-map-reduce/#:~:text=Map%2Dreduce%20is%20a%20common,promises%20to%20be%20much%20faster.)
+
 
 ## 참고자료
 * https://www.codeproject.com/Articles/1149682/Aggregation-in-MongoDB
